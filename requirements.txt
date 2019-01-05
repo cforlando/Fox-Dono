@@ -1,0 +1,2 @@
+aiohttp~=3.5
+quart~=0.7
