@@ -1,1 +1,1 @@
-web: hypercorn foxdono:app -b 0.0.0.0:${PORT} -c python:hypercorn_config.py --log-file -
+web: hypercorn foxdono:app -b 0.0.0.0:${PORT} -c python:hypercorn_config.py
