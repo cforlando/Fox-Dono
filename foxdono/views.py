@@ -27,5 +27,5 @@ async def next_event():
     return jsonify(data[0] if data else [])
 
 @app.route('/rollcall', methods=['POST'])
-def rollcall():
+async def rollcall():
     return 'Hi there'
