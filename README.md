@@ -12,5 +12,6 @@ pip install -Ur requirements.txt
 ## Running
 
 ```bash
-python runserver.py
+export QUART_APP=foxdono:app
+quart run -p 8000
 ```

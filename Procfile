@@ -1,0 +1,1 @@
+web: hypercorn foxdono:app -c python:hypercorn_config.py --log-file -

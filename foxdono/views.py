@@ -25,3 +25,7 @@ async def next_event():
         async with sess.get(url) as resp:
             data = await resp.json()
     return jsonify(data[0] if data else [])
+
+@app.route('/rollcall', methods=['POST'])
+def rollcall():
+    return 'Hi there'
